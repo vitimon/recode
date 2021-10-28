@@ -2,9 +2,9 @@ algoritmo "cadastramento e consulta agencia de viagens"
 
 var
 
-   cadastroCliente : vetor[0..100] de caractere
+   cadastroCliente : vetor[0..100,0..2] de caractere
    quantCliente : inteiro
-   cadastroDestino : vetor[0..100] de caractere
+   cadastroDestino : vetor[0..100,0..1] de caractere
    quantDestino: inteiro
 
 
@@ -35,13 +35,22 @@ inicio
                          caso 1
                               escreval("Qual o nome do novo cliente?")
                               leia(nome)
-                              cadastroCliente[quantCliente] <- nome
+                              cadastroCliente[quantCliente,0] <- nome
+                              escreval("Qual o cpf do novo cliente?")
+                              leia(nome)
+                              cadastroCliente[quantCliente,1] <- nome
+                              escreval("Qual o email do novo cliente?")
+                              leia(nome)
+                              cadastroCliente[quantCliente,2] <- nome
                               quantCliente <- quantCliente + 1
                               menuInicial()
                          caso 2
                               escreval("Qual o nome do novo destino?")
                               leia(nome)
-                              cadastroDestino[quantDestino] <- nome
+                              cadastroDestino[quantDestino,0] <- nome
+                              escreval("Qual o preço do novo destino?")
+                              leia(nome)
+                              cadastroDestino[quantDestino,1] <- nome
                               quantDestino <- quantDestino + 1
                               menuInicial()
 
@@ -55,24 +64,24 @@ inicio
                          leia(num)
                          escolha num
                          caso 1
-
+                              escreval( "NOME     CPF       email")
                               para num de 1 ate 100 faca
                               se cadastroCliente[num] = "" entao
                                  escreval("fim da clientela")
                                  interrompa
                               senao
-                                   escreval(cadastroCliente[num])
+                                   escreval(cadastroCliente[num,0]+" "+cadastroCliente[num,1]+" "+cadastroCliente[num,2])
                               fimse
                               fimpara
                               menuConsulta()
                          caso 2
-                         
+                              escreval("DESTINO   PREÇO")
                               para num de 1 ate 100 faca
                               se cadastroDestino[num] = "" entao
                                  escreval("fim das opções de destino")
                                  interrompa
                               senao
-                                   escreval(cadastroDestino[num])
+                                   escreval(cadastroDestino[num,0]+" "+cadastroDestino[num,1])
                               fimse
                               fimpara
                                menuConsulta()
