@@ -55,20 +55,54 @@ class Destination{
 	}
 	
 }
+
+class Travel{
+	private int travelID;
+	private Customer customer;
+	private Destination destination;
+	private int totalPrice;
+	private String status;
+	
+	public Travel(int tidS, Customer customerS, Destination destinationS){
+		travelID = tidS;
+		customer = customerS;
+		destination = destinationS;
+		totalPrice = destination.getPrice();
+		status = "open";
+	}
+	public void printTravel(){
+		System.out.println(Integer.toString(this.travelID) + " " + customer.getName() + " " + destination.getName() + " " + Integer.toString(this.totalPrice) + " " + this.status);
+	}/*
+	public int getCPF(){
+		return this.cpf;
+	}
+	public String getName(){
+		return this.name;
+	}
+	public String getEmail(){
+		return this.email;
+	}
+	public void setName(String nameS){
+		this.name = nameS;	
+	}
+	public void setEmail(String emailS){
+		this.email = emailS;	
+	}*/
+	
+	
+}
 		
 		
 public class Tour {
 	public static void main(String[] args){
 		
 		Customer cliente1 = new Customer(12345,"amendobobo","oeoe@gmail.com");
-		cliente1.printCustomer();
-		cliente1.setName("boboamendo");
-		cliente1.setEmail("mentira@hotmail.com");
-		cliente1.printCustomer();
 		Destination destino1 = new Destination("jururema",1400);
-		destino1.printDestination();
+		Travel viagem1 = new Travel(0001,cliente1,destino1);
+		viagem1.printTravel();
 		destino1.setPrice(1200);
-		destino1.printDestination();
+		cliente1.setName("boboamendo");
+		viagem1.printTravel();
 	}
 			
 }																																																																																																																										
