@@ -1,0 +1,16 @@
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/MyApp
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/MyApp.deps.json
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/MyApp.runtimeconfig.json
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/MyApp.runtimeconfig.dev.json
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/MyApp.dll
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/ref/MyApp.dll
+/home/mamona/Desktop/CSharp/MyApp/bin/Debug/net5.0/MyApp.pdb
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.csproj.AssemblyReference.cache
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.AssemblyInfoInputs.cache
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.AssemblyInfo.cs
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.csproj.CoreCompileInputs.cache
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.dll
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/ref/MyApp.dll
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.pdb
+/home/mamona/Desktop/CSharp/MyApp/obj/Debug/net5.0/MyApp.genruntimeconfig.cache

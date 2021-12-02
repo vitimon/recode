@@ -1,0 +1,16 @@
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/Aplicativo
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/Aplicativo.deps.json
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/Aplicativo.runtimeconfig.json
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/Aplicativo.runtimeconfig.dev.json
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/Aplicativo.dll
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/ref/Aplicativo.dll
+/home/mamona/Desktop/CSharp/Aplicativo/bin/Debug/net5.0/Aplicativo.pdb
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.csproj.AssemblyReference.cache
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.GeneratedMSBuildEditorConfig.editorconfig
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.AssemblyInfoInputs.cache
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.AssemblyInfo.cs
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.csproj.CoreCompileInputs.cache
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.dll
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/ref/Aplicativo.dll
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.pdb
+/home/mamona/Desktop/CSharp/Aplicativo/obj/Debug/net5.0/Aplicativo.genruntimeconfig.cache

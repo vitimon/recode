@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/mamona/.dotnet/store/|arch|/|tfm|",
+      "/home/mamona/.nuget/packages"
+    ]
+  }
+}
