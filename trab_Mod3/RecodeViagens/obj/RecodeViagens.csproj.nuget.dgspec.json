@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baanc\\source\\repos\\RecodeViagens\\RecodeViagens.csproj": {}
+    "C:\\Users\\baanc\\OneDrive\\Área de Trabalho\\recode\\trab_Mod3\\RecodeViagens\\RecodeViagens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baanc\\source\\repos\\RecodeViagens\\RecodeViagens.csproj": {
+    "C:\\Users\\baanc\\OneDrive\\Área de Trabalho\\recode\\trab_Mod3\\RecodeViagens\\RecodeViagens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baanc\\source\\repos\\RecodeViagens\\RecodeViagens.csproj",
+        "projectUniqueName": "C:\\Users\\baanc\\OneDrive\\Área de Trabalho\\recode\\trab_Mod3\\RecodeViagens\\RecodeViagens.csproj",
         "projectName": "RecodeViagens",
-        "projectPath": "C:\\Users\\baanc\\source\\repos\\RecodeViagens\\RecodeViagens.csproj",
+        "projectPath": "C:\\Users\\baanc\\OneDrive\\Área de Trabalho\\recode\\trab_Mod3\\RecodeViagens\\RecodeViagens.csproj",
         "packagesPath": "C:\\Users\\baanc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baanc\\source\\repos\\RecodeViagens\\obj\\",
+        "outputPath": "C:\\Users\\baanc\\OneDrive\\Área de Trabalho\\recode\\trab_Mod3\\RecodeViagens\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\baanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
