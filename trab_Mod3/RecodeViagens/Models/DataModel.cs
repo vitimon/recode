@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Touristando.Models
+namespace RecodeViagens.Models
 {
     public class DataModel : DbContext
     {

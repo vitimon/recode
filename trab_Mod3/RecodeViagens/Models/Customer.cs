@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Touristando.Models
+namespace RecodeViagens.Models
 {
     public class Customer
     {
