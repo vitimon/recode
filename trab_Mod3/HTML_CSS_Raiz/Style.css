@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #7043A1;
+    color: white;
+    height: 75px;
+    padding-left: 100px;
+    vertical-align: bottom;
+}
+.navbar li {
+    display: inline;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.content{
+    text-align: center;
+}
