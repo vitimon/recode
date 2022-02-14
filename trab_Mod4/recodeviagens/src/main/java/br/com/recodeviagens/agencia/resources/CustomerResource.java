@@ -27,6 +27,11 @@ public class CustomerResource {
 	@Autowired
 	private CustomerRepository customerRepository;
 	
+	@PostMapping
+	public void save(@RequestBody Customer customer) {
+		customerRepository.save(customer);
+	}
+	
 	@GetMapping
 	public ResponseEntity<List<Customer>> listing(){
 		List<Customer> clientes = customerRepository.findAll();
@@ -37,11 +42,6 @@ public class CustomerResource {
 	public ResponseEntity<Customer> listingById(@PathVariable Long id){
 		Customer customer = customerRepository.findById(id).get();
 		return ResponseEntity.ok().body(customer);
-	}
-	
-	@PostMapping
-	public void save(@RequestBody Customer customer) {
-		customerRepository.save(customer);
 	}
 	
 	@DeleteMapping("/{id}")

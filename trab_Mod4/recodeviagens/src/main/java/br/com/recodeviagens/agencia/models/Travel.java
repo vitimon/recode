@@ -45,7 +45,7 @@ public class Travel implements Serializable {
 	@JoinColumn(name = "id_customer")
 	private Customer customer;
 	
-	@Transient
+
 	@Autowired
 	private static TransitRepository transitRepository;
 	
