@@ -29,6 +29,14 @@ main {
 	display: flex;
 }
 
+.menuAlt {
+	z-index: 1;
+	width: 50%;
+	background-color: white;
+	justify-content: space-between;
+	text-align: center;
+	display: flex;
+}
 .menu a {
 	font-size: 1.2rem;
 	text-decoration: none;
@@ -48,5 +56,6 @@ main {
 .home {
 	background-size: 100%;
 	padding-left: 50px;
+	text-align: center;
 }
 
