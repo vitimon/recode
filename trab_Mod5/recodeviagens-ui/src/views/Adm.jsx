@@ -9,7 +9,7 @@ export default function Home() {
                 <button>DESTINOS</button>
                 <button>VIAGENS</button>
             </div>
-
+           
             
 
         </main>
