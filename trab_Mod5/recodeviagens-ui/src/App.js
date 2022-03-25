@@ -11,9 +11,7 @@ import "./assets/css/style.css";
 
 import axios from 'axios';
 
-const api = {
-    baseUrl = "localhost:8080"
-}
+
 function App() {
     return (
         <BrowserRouter>
